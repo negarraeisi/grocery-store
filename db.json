@@ -1,0 +1,904 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Organic Gala Apples",
+      "category": "Produce",
+      "price": 2.99,
+      "unit": "kg",
+      "stock": 150,
+      "imageUrl": "/images/1.webp"
+    },
+    {
+      "id": 2,
+      "name": "Ripe Avocados",
+      "category": "Produce",
+      "price": 1.49,
+      "unit": "each",
+      "stock": 80,
+      "imageUrl": "/images/2.webp"
+    },
+    {
+      "id": 3,
+      "name": "Fresh Baby Spinach",
+      "category": "Produce",
+      "price": 3.29,
+      "unit": "bag",
+      "stock": 120,
+      "imageUrl": "/images/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sweet Potatoes",
+      "category": "Produce",
+      "price": 1.79,
+      "unit": "kg",
+      "stock": 90,
+      "imageUrl": "/images/4.webp"
+    },
+    {
+      "id": 5,
+      "name": "Red Seedless Grapes",
+      "category": "Produce",
+      "price": 4.50,
+      "unit": "kg",
+      "stock": 70,
+      "imageUrl": "/images/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Whole Milk (3.5%)",
+      "category": "Dairy & Alternatives",
+      "price": 1.99,
+      "unit": "liter",
+      "stock": 200,
+      "imageUrl": "/images/6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Cheddar Cheese Block",
+      "category": "Dairy & Alternatives",
+      "price": 5.89,
+      "unit": "pack",
+      "stock": 60,
+      "imageUrl": "/images/7.webp"
+    },
+    {
+      "id": 8,
+      "name": "Large Eggs (Free Range)",
+      "category": "Dairy & Alternatives",
+      "price": 3.49,
+      "unit": "dozen",
+      "stock": 100,
+      "imageUrl": "/images/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Greek Yogurt (Plain)",
+      "category": "Dairy & Alternatives",
+      "price": 1.29,
+      "unit": "cup",
+      "stock": 180,
+      "imageUrl": "/images/9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Unsalted Butter",
+      "category": "Dairy & Alternatives",
+      "price": 2.79,
+      "unit": "pack",
+      "stock": 75,
+      "imageUrl": "/images/10.webp"
+    },
+    {
+      "id": 11,
+      "name": "Artisan Sourdough Bread",
+      "category": "Bakery",
+      "price": 4.25,
+      "unit": "loaf",
+      "stock": 40,
+      "imageUrl": "/images/11.webp"
+    },
+    {
+      "id": 12,
+      "name": "Multigrain Sandwich Loaf",
+      "category": "Bakery",
+      "price": 2.50,
+      "unit": "loaf",
+      "stock": 90,
+      "imageUrl": "/images/12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Chocolate Chip Cookies",
+      "category": "Bakery",
+      "price": 3.99,
+      "unit": "pack",
+      "stock": 50,
+      "imageUrl": "/images/13.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Blueberry Muffins",
+      "category": "Bakery",
+      "price": 1.75,
+      "unit": "each",
+      "stock": 60,
+      "imageUrl": "/images/14.webp"
+    },
+    {
+      "id": 15,
+      "name": "Croissants (Plain)",
+      "category": "Bakery",
+      "price": 1.50,
+      "unit": "each",
+      "stock": 70,
+      "imageUrl": "/images/15.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Ground Beef (Lean)",
+      "category": "Meat & Seafood",
+      "price": 7.99,
+      "unit": "kg",
+      "stock": 30,
+      "imageUrl": "/images/16.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Chicken Breast (Boneless)",
+      "category": "Meat & Seafood",
+      "price": 9.20,
+      "unit": "kg",
+      "stock": 45,
+      "imageUrl": "/images/17.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Salmon Fillet (Fresh)",
+      "category": "Meat & Seafood",
+      "price": 14.50,
+      "unit": "kg",
+      "stock": 25,
+      "imageUrl": "/images/18.webp"
+    },
+    {
+      "id": 19,
+      "name": "Pork Chops",
+      "category": "Meat & Seafood",
+      "price": 6.75,
+      "unit": "kg",
+      "stock": 35,
+      "imageUrl": "/images/19.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Shrimp (Raw, Peeled)",
+      "category": "Meat & Seafood",
+      "price": 12.00,
+      "unit": "pack",
+      "stock": 20,
+      "imageUrl": "/images/20.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Basmati Rice",
+      "category": "Pantry",
+      "price": 4.99,
+      "unit": "kg",
+      "stock": 110,
+      "imageUrl": "/images/21.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Canned Diced Tomatoes",
+      "category": "Pantry",
+      "price": 1.10,
+      "unit": "can",
+      "stock": 150,
+      "imageUrl": "/images/22.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Extra Virgin Olive Oil",
+      "category": "Pantry",
+      "price": 8.99,
+      "unit": "bottle",
+      "stock": 80,
+      "imageUrl": "/images/23.webp"
+    },
+    {
+      "id": 24,
+      "name": "All-Purpose Flour",
+      "category": "Pantry",
+      "price": 2.20,
+      "unit": "kg",
+      "stock": 100,
+      "imageUrl": "/images/24.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Granulated Sugar",
+      "category": "Pantry",
+      "price": 3.15,
+      "unit": "kg",
+      "stock": 95,
+      "imageUrl": "/images/25.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Coffee Beans (Dark Roast)",
+      "category": "Beverages",
+      "price": 9.50,
+      "unit": "bag",
+      "stock": 60,
+      "imageUrl": "/images/26.webp"
+    },
+    {
+      "id": 27,
+      "name": "Orange Juice (No Pulp)",
+      "category": "Beverages",
+      "price": 3.75,
+      "unit": "liter",
+      "stock": 85,
+      "imageUrl": "/images/27.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Sparkling Water",
+      "category": "Beverages",
+      "price": 0.89,
+      "unit": "bottle",
+      "stock": 200,
+      "imageUrl": "/images/28.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Assorted Tea Bags",
+      "category": "Beverages",
+      "price": 4.00,
+      "unit": "box",
+      "stock": 70,
+      "imageUrl": "/images/29.webp"
+    },
+    {
+      "id": 30,
+      "name": "Cola Soft Drink",
+      "category": "Beverages",
+      "price": 1.50,
+      "unit": "can",
+      "stock": 180,
+      "imageUrl": "/images/30.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Potato Chips (Salted)",
+      "category": "Snacks",
+      "price": 2.29,
+      "unit": "bag",
+      "stock": 160,
+      "imageUrl": "/images/31.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Granola Bars (Variety Pack)",
+      "category": "Snacks",
+      "price": 5.99,
+      "unit": "box",
+      "stock": 70,
+      "imageUrl": "/images/32.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Roasted Almonds",
+      "category": "Snacks",
+      "price": 7.00,
+      "unit": "bag",
+      "stock": 55,
+      "imageUrl": "/images/33.webp"
+    },
+    {
+      "id": 34,
+      "name": "Pretzels",
+      "category": "Snacks",
+      "price": 2.99,
+      "unit": "bag",
+      "stock": 100,
+      "imageUrl": "/images/34.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Rice Cakes",
+      "category": "Snacks",
+      "price": 1.80,
+      "unit": "pack",
+      "stock": 90,
+      "imageUrl": "/images/35.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Frozen Peas",
+      "category": "Frozen Foods",
+      "price": 2.10,
+      "unit": "bag",
+      "stock": 120,
+      "imageUrl": "/images/36.webp"
+    },
+    {
+      "id": 37,
+      "name": "Frozen Pizza (Pepperoni)",
+      "category": "Frozen Foods",
+      "price": 6.50,
+      "unit": "each",
+      "stock": 40,
+      "imageUrl": "/images/37.webp"
+    },
+    {
+      "id": 38,
+      "name": "Ice Cream (Vanilla)",
+      "category": "Frozen Foods",
+      "price": 4.75,
+      "unit": "tub",
+      "stock": 60,
+      "imageUrl": "/images/38.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Frozen Berries (Mixed)",
+      "category": "Frozen Foods",
+      "price": 5.25,
+      "unit": "bag",
+      "stock": 80,
+      "imageUrl": "/images/39.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Frozen French Fries",
+      "category": "Frozen Foods",
+      "price": 3.00,
+      "unit": "bag",
+      "stock": 100,
+      "imageUrl": "/images/40.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Dish Soap",
+      "category": "Household",
+      "price": 3.49,
+      "unit": "bottle",
+      "stock": 70,
+      "imageUrl": "/images/41.webp"
+    },
+    {
+      "id": 42,
+      "name": "Paper Towels",
+      "category": "Household",
+      "price": 6.99,
+      "unit": "roll",
+      "stock": 50,
+      "imageUrl": "/images/42.webp"
+    },
+    {
+      "id": 43,
+      "name": "Laundry Detergent",
+      "category": "Household",
+      "price": 12.00,
+      "unit": "bottle",
+      "stock": 40,
+      "imageUrl": "/images/43.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Trash Bags (Large)",
+      "category": "Household",
+      "price": 5.50,
+      "unit": "box",
+      "stock": 60,
+      "imageUrl": "/images/44.webp"
+    },
+    {
+      "id": 45,
+      "name": "All-Purpose Cleaner",
+      "category": "Household",
+      "price": 4.10,
+      "unit": "bottle",
+      "stock": 80,
+      "imageUrl": "/images/45.webp"
+    },
+    {
+      "id": 46,
+      "name": "Shampoo (Moisturizing)",
+      "category": "Personal Care",
+      "price": 6.00,
+      "unit": "bottle",
+      "stock": 55,
+      "imageUrl": "/images/46.webp"
+    },
+    {
+      "id": 47,
+      "name": "Toothpaste (Fluoride)",
+      "category": "Personal Care",
+      "price": 3.20,
+      "unit": "tube",
+      "stock": 90,
+      "imageUrl": "/images/47.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Bar Soap",
+      "category": "Personal Care",
+      "price": 1.75,
+      "unit": "pack",
+      "stock": 120,
+      "imageUrl": "/images/48.webp"
+    },
+    {
+      "id": 49,
+      "name": "Toilet Paper",
+      "category": "Personal Care",
+      "price": 8.50,
+      "unit": "pack",
+      "stock": 45,
+      "imageUrl": "/images/49.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Hand Sanitizer",
+      "category": "Personal Care",
+      "price": 2.50,
+      "unit": "bottle",
+      "stock": 150,
+      "imageUrl": "/images/50.jpeg"
+    },
+    {
+      "id": 51,
+      "name": "Bananas",
+      "category": "Produce",
+      "price": 1.20,
+      "unit": "kg",
+      "stock": 200,
+      "imageUrl": "/images/51.jpg"
+    },
+    {
+      "id": 52,
+      "name": "Cucumbers",
+      "category": "Produce",
+      "price": 0.99,
+      "unit": "each",
+      "stock": 130,
+      "imageUrl": "/images/52.jpg"
+    },
+    {
+      "id": 53,
+      "name": "Bell Peppers (Mixed)",
+      "category": "Produce",
+      "price": 3.50,
+      "unit": "pack",
+      "stock": 70,
+      "imageUrl": "/images/53.jpg"
+    },
+    {
+      "id": 54,
+      "name": "Lemons",
+      "category": "Produce",
+      "price": 0.60,
+      "unit": "each",
+      "stock": 180,
+      "imageUrl": "/images/54.webp"
+    },
+    {
+      "id": 55,
+      "name": "Broccoli Crowns",
+      "category": "Produce",
+      "price": 2.75,
+      "unit": "kg",
+      "stock": 85,
+      "imageUrl": "/images/55.jpg"
+    },
+    {
+      "id": 56,
+      "name": "Almond Milk (Unsweetened)",
+      "category": "Dairy & Alternatives",
+      "price": 3.10,
+      "unit": "liter",
+      "stock": 110,
+      "imageUrl": "/images/56.jpeg"
+    },
+    {
+      "id": 57,
+      "name": "Sour Cream",
+      "category": "Dairy & Alternatives",
+      "price": 1.70,
+      "unit": "tub",
+      "stock": 70,
+      "imageUrl": "/images/57.jpg"
+    },
+    {
+      "id": 58,
+      "name": "Cottage Cheese",
+      "category": "Dairy & Alternatives",
+      "price": 2.45,
+      "unit": "tub",
+      "stock": 50,
+      "imageUrl": "/images/58.jpg"
+    },
+    {
+      "id": 59,
+      "name": "Whipped Cream",
+      "category": "Dairy & Alternatives",
+      "price": 3.00,
+      "unit": "can",
+      "stock": 65,
+      "imageUrl": "/images/59.jpg"
+    },
+    {
+      "id": 60,
+      "name": "Plant-Based Butter",
+      "category": "Dairy & Alternatives",
+      "price": 3.20,
+      "unit": "pack",
+      "stock": 40,
+      "imageUrl": "/images/60.webp"
+    },
+    {
+      "id": 61,
+      "name": "Rye Bread",
+      "category": "Bakery",
+      "price": 3.80,
+      "unit": "loaf",
+      "stock": 35,
+      "imageUrl": "/images/61.jpg"
+    },
+    {
+      "id": 62,
+      "name": "Bagels (Plain)",
+      "category": "Bakery",
+      "price": 2.99,
+      "unit": "pack",
+      "stock": 60,
+      "imageUrl": "/images/62.jpg"
+    },
+    {
+      "id": 63,
+      "name": "Donuts (Assorted)",
+      "category": "Bakery",
+      "price": 4.50,
+      "unit": "dozen",
+      "stock": 25,
+      "imageUrl": "/images/63.jpg"
+    },
+    {
+      "id": 64,
+      "name": "Pita Bread",
+      "category": "Bakery",
+      "price": 2.10,
+      "unit": "pack",
+      "stock": 75,
+      "imageUrl": "/images/64.jpeg"
+    },
+    {
+      "id": 65,
+      "name": "Ciabatta Rolls",
+      "category": "Bakery",
+      "price": 3.00,
+      "unit": "pack",
+      "stock": 50,
+      "imageUrl": "/images/65.jpg"
+    },
+    {
+      "id": 66,
+      "name": "Pork Sausages",
+      "category": "Meat & Seafood",
+      "price": 5.50,
+      "unit": "pack",
+      "stock": 30,
+      "imageUrl": "/images/66.webp"
+    },
+    {
+      "id": 67,
+      "name": "Turkey Mince",
+      "category": "Meat & Seafood",
+      "price": 6.80,
+      "unit": "kg",
+      "stock": 28,
+      "imageUrl": "/images/67.jpg"
+    },
+    {
+      "id": 68,
+      "name": "Cod Fillet",
+      "category": "Meat & Seafood",
+      "price": 11.75,
+      "unit": "kg",
+      "stock": 22,
+      "imageUrl": "/images/68.jpg"
+    },
+    {
+      "id": 69,
+      "name": "Lamb Chops",
+      "category": "Meat & Seafood",
+      "price": 15.00,
+      "unit": "kg",
+      "stock": 18,
+      "imageUrl": "/images/69.jpg"
+    },
+    {
+      "id": 70,
+      "name": "Hot Dogs",
+      "category": "Meat & Seafood",
+      "price": 4.00,
+      "unit": "pack",
+      "stock": 50,
+      "imageUrl": "/images/70.jpg"
+    },
+    {
+      "id": 71,
+      "name": "Pasta (Spaghetti)",
+      "category": "Pantry",
+      "price": 1.50,
+      "unit": "pack",
+      "stock": 180,
+      "imageUrl": "/images/71.webp"
+    },
+    {
+      "id": 72,
+      "name": "Black Beans (Canned)",
+      "category": "Pantry",
+      "price": 0.95,
+      "unit": "can",
+      "stock": 160,
+      "imageUrl": "/images/72.webp"
+    },
+    {
+      "id": 73,
+      "name": "White Vinegar",
+      "category": "Pantry",
+      "price": 2.00,
+      "unit": "bottle",
+      "stock": 90,
+      "imageUrl": "/images/73.jpg"
+    },
+    {
+      "id": 74,
+      "name": "Baking Soda",
+      "category": "Pantry",
+      "price": 1.25,
+      "unit": "box",
+      "stock": 110,
+      "imageUrl": "/images/74.png"
+    },
+    {
+      "id": 75,
+      "name": "Honey",
+      "category": "Pantry",
+      "price": 6.70,
+      "unit": "jar",
+      "stock": 60,
+      "imageUrl": "/images/75.webp"
+    },
+    {
+      "id": 76,
+      "name": "Green Tea",
+      "category": "Beverages",
+      "price": 3.50,
+      "unit": "box",
+      "stock": 80,
+      "imageUrl": "/images/76.jpg"
+    },
+    {
+      "id": 77,
+      "name": "Apple Juice",
+      "category": "Beverages",
+      "price": 2.80,
+      "unit": "liter",
+      "stock": 100,
+      "imageUrl": "/images/77.jpg"
+    },
+    {
+      "id": 78,
+      "name": "Diet Soda (Lemon-Lime)",
+      "category": "Beverages",
+      "price": 1.40,
+      "unit": "can",
+      "stock": 170,
+      "imageUrl": "/images/78.png"
+    },
+    {
+      "id": 79,
+      "name": "Sports Drink (Berry)",
+      "category": "Beverages",
+      "price": 2.20,
+      "unit": "bottle",
+      "stock": 110,
+      "imageUrl": "/images/79.jpg"
+    },
+    {
+      "id": 80,
+      "name": "Mineral Water",
+      "category": "Beverages",
+      "price": 1.10,
+      "unit": "bottle",
+      "stock": 190,
+      "imageUrl": "/images/80.jpg"
+    },
+    {
+      "id": 81,
+      "name": "Tortilla Chips",
+      "category": "Snacks",
+      "price": 2.75,
+      "unit": "bag",
+      "stock": 140,
+      "imageUrl": "/images/81.jpg"
+    },
+    {
+      "id": 82,
+      "name": "Popcorn Kernels",
+      "category": "Snacks",
+      "price": 1.99,
+      "unit": "bag",
+      "stock": 90,
+      "imageUrl": "/images/82.jpg"
+    },
+    {
+      "id": 83,
+      "name": "Trail Mix",
+      "category": "Snacks",
+      "price": 6.20,
+      "unit": "bag",
+      "stock": 45,
+      "imageUrl": "/images/83.jpg"
+    },
+    {
+      "id": 84,
+      "name": "Rice Crackers",
+      "category": "Snacks",
+      "price": 2.40,
+      "unit": "pack",
+      "stock": 110,
+      "imageUrl": "/images/84.webp"
+    },
+    {
+      "id": 85,
+      "name": "Fruit Snacks",
+      "category": "Snacks",
+      "price": 3.00,
+      "unit": "box",
+      "stock": 80,
+      "imageUrl": "/images/85.jpg"
+    },
+    {
+      "id": 86,
+      "name": "Frozen Spinach",
+      "category": "Frozen Foods",
+      "price": 2.50,
+      "unit": "bag",
+      "stock": 100,
+      "imageUrl": "/images/86.jpg"
+    },
+    {
+      "id": 87,
+      "name": "Frozen Burrito",
+      "category": "Frozen Foods",
+      "price": 3.80,
+      "unit": "each",
+      "stock": 50,
+      "imageUrl": "/images/87.webp"
+    },
+    {
+      "id": 88,
+      "name": "Frozen Yogurt (Strawberry)",
+      "category": "Frozen Foods",
+      "price": 4.20,
+      "unit": "tub",
+      "stock": 55,
+      "imageUrl": "/images/88.jpg"
+    },
+    {
+      "id": 89,
+      "name": "Frozen Waffles",
+      "category": "Frozen Foods",
+      "price": 3.10,
+      "unit": "box",
+      "stock": 90,
+      "imageUrl": "/images/89.webp"
+    },
+    {
+      "id": 90,
+      "name": "Frozen Chicken Nuggets",
+      "category": "Frozen Foods",
+      "price": 7.00,
+      "unit": "bag",
+      "stock": 40,
+      "imageUrl": "/images/90.jpg"
+    },
+    {
+      "id": 91,
+      "name": "Fabric Softener",
+      "category": "Household",
+      "price": 5.00,
+      "unit": "bottle",
+      "stock": 60,
+      "imageUrl": "/images/91.jpeg"
+    },
+    {
+      "id": 92,
+      "name": "Kitchen Sponges",
+      "category": "Household",
+      "price": 2.00,
+      "unit": "pack",
+      "stock": 100,
+      "imageUrl": "/images/92.webp"
+    },
+    {
+      "id": 93,
+      "name": "Dishwasher Tablets",
+      "category": "Household",
+      "price": 8.00,
+      "unit": "pack",
+      "stock": 35,
+      "imageUrl": "/images/93.jpg"
+    },
+    {
+      "id": 94,
+      "name": "Air Freshener",
+      "category": "Household",
+      "price": 3.00,
+      "unit": "can",
+      "stock": 80,
+      "imageUrl": "/images/94.jpg"
+    },
+    {
+      "id": 95,
+      "name": "Bleach",
+      "category": "Household",
+      "price": 2.50,
+      "unit": "bottle",
+      "stock": 70,
+      "imageUrl": "/images/95.jpg"
+    },
+    {
+      "id": 96,
+      "name": "Conditioner (Volumizing)",
+      "category": "Personal Care",
+      "price": 6.00,
+      "unit": "bottle",
+      "stock": 50,
+      "imageUrl": "/images/96.webp"
+    },
+    {
+      "id": 97,
+      "name": "Mouthwash",
+      "category": "Personal Care",
+      "price": 4.50,
+      "unit": "bottle",
+      "stock": 65,
+      "imageUrl": "/images/97.jpg"
+    },
+    {
+      "id": 98,
+      "name": "Body Lotion",
+      "category": "Personal Care",
+      "price": 7.00,
+      "unit": "bottle",
+      "stock": 40,
+      "imageUrl": "/images/98.webp"
+    },
+    {
+      "id": 99,
+      "name": "Facial Cleanser",
+      "category": "Personal Care",
+      "price": 9.00,
+      "unit": "bottle",
+      "stock": 30,
+      "imageUrl": "/images/99.webp"
+    },
+    {
+      "id": 100,
+      "name": "Deodorant (Stick)",
+      "category": "Personal Care",
+      "price": 3.75,
+      "unit": "each",
+      "stock": 95,
+      "imageUrl": "/images/100.jpg"
+    }
+  ]
+}
