@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   const [products, setProducts] = useState([]);
+  const apiURL = "https://grocery-store-api-tn34.onrender.com";
 
   useEffect(() => {
     getProducts().then((data) => {
@@ -13,7 +14,7 @@ function Home() {
 
   const featured = products.slice(0, 4);
   const deals = products.filter((p) => p.price < 10).slice(0, 4);
-  const newArrivals = products.slice(-4); 
+  const newArrivals = products.slice(-4);
 
   const renderSection = (title, items) => (
     <section className="my-10">
@@ -23,7 +24,7 @@ function Home() {
           <Link to={`/product/${product.id}`} key={product.id}>
             <div className="bg-white rounded-lg shadow hover:shadow-md transition p-4 flex flex-col items-center">
               <img
-                src={product.imageUrl}
+                src={`${apiURL}${product.imageUrl}`}
                 alt={product.name}
                 className="w-full h-40 object-cover rounded-md mb-4"
               />
@@ -42,8 +43,12 @@ function Home() {
   return (
     <div className="p-6">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-green-700">Welcome to Grocery Shop!</h1>
-        <p className="text-gray-600 text-lg mt-2">Fresh, organic, and handpicked for you.</p>
+        <h1 className="text-4xl font-bold text-green-700">
+          Welcome to Grocery Shop!
+        </h1>
+        <p className="text-gray-600 text-lg mt-2">
+          Fresh, organic, and handpicked for you.
+        </p>
       </div>
 
       {renderSection("🌟 Featured Products", featured)}

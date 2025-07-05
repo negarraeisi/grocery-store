@@ -1,9 +1,11 @@
 function CartItem({ item, onDelete, onIncrease, onDecrease }) {
+  const apiURL = "https://grocery-store-api-tn34.onrender.com";
+
   return (
     <div className="flex m-4 gap-6 border-b-2 p-4 items-center shadow-sm">
       <img
         className="rounded-lg size-20 object-cover"
-        src={item.imageUrl}
+        src={`${apiURL}${item.imageUrl}`}
         alt={item.name}
       />
       <div className="flex flex-col gap-1 w-48">

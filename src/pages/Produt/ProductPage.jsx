@@ -7,8 +7,10 @@ import { useToast } from "../../context/ToastContext";
 function ProductPage() {
   const params = useParams();
   const [product, setProduct] = useState();
-  const { addToCart, increaseQuantity, decreaseQuantity, getItemQuantity } = useCart();
+  const { addToCart, increaseQuantity, decreaseQuantity, getItemQuantity } =
+    useCart();
   const { showToast } = useToast();
+  const apiURL = "https://grocery-store-api-tn34.onrender.com";
 
   useEffect(() => {
     getProduct(params.id).then((data) => {
@@ -30,7 +32,7 @@ function ProductPage() {
       <div className="w-full h-96 overflow-hidden rounded-lg shadow">
         <img
           className="w-full h-full object-cover"
-          src={product.imageUrl}
+          src={`${apiURL}${product.imageUrl}`}
           alt={product.name}
         />
       </div>
