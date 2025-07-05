@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const client = axios.create ({
-    baseURL: "http://localhost:3001" 
+    baseURL: "https://grocery-store-api-tn34.onrender.com" 
 })
 
 export async function getProducts(){
