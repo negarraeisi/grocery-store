@@ -23,7 +23,7 @@ function Home() {
           <Link to={`/product/${product.id}`} key={product.id}>
             <div className="bg-white rounded-lg shadow hover:shadow-md transition p-4 flex flex-col items-center">
               <img
-                src={`${process.env.PUBLIC_URL}/${item.imageUrl.replace(/^\/+/, "")}`}
+                src={`${process.env.PUBLIC_URL}/${product.imageUrl.replace(/^\/+/, "")}`}
                 alt={product.name}
                 className="w-full h-40 object-cover rounded-md mb-4"
               />
