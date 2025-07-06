@@ -24,7 +24,7 @@ function Home() {
           <Link to={`/product/${product.id}`} key={product.id}>
             <div className="bg-white rounded-lg shadow hover:shadow-md transition p-4 flex flex-col items-center">
               <img
-                src={`${apiURL}${product.imageUrl}`}
+                src={product.imageUrl}
                 alt={product.name}
                 className="w-full h-40 object-cover rounded-md mb-4"
               />
