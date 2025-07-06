@@ -32,7 +32,7 @@ function ProductPage() {
       <div className="w-full h-96 overflow-hidden rounded-lg shadow">
         <img
           className="w-full h-full object-cover"
-          src={product.imageUrl.replace(/^\//, "")}
+          src={`${process.env.PUBLIC_URL}/${item.imageUrl.replace(/^\/+/, "")}`}
           alt={product.name}
         />
       </div>
