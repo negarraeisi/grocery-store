@@ -32,7 +32,7 @@ function ProductPage() {
       <div className="w-full h-96 overflow-hidden rounded-lg shadow">
         <img
           className="w-full h-full object-cover"
-          src={`${apiURL}${product.imageUrl}`}
+          src={product.imageUrl}
           alt={product.name}
         />
       </div>

@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   const [products, setProducts] = useState([]);
-  const apiURL = "https://grocery-store-api-tn34.onrender.com";
-
+  
   useEffect(() => {
     getProducts().then((data) => {
       setProducts(data);
