@@ -3,7 +3,7 @@ function CartItem({ item, onDelete, onIncrease, onDecrease }) {
     <div className="flex m-4 gap-6 border-b-2 p-4 items-center shadow-sm">
       <img
         className="rounded-lg size-20 object-cover"
-        src={product.imageUrl.replace(/^\//, "")}
+        src={item.imageUrl.replace(/^\//, "")}
         alt={item.name}
       />
       <div className="flex flex-col gap-1 w-48">
